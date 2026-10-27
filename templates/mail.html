@@ -1,0 +1,246 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FareDealFinder | New Flight Quote Request</title>
+  </head>
+
+  <body
+    style="
+      margin: 0;
+      padding: 0;
+      background: #f5f3ed;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #172c30;
+    "
+  >
+    <table role="presentation"
+
+      width="100%"
+      cellpadding="0"
+      cellspacing="0"
+      border="0"
+      style="background: #f5f3ed; padding: 35px 12px"
+    >
+      <tr>
+        <td align="center">
+          <!-- Main Container -->
+          <table role="presentation"
+
+            width="100%"
+            cellpadding="0"
+            cellspacing="0"
+            border="0"
+            style="
+              max-width: 650px;
+              background: #ffffff;
+              border-radius: 16px;
+              overflow: hidden;
+              border: 1px solid #d9dfd9;
+            "
+          >
+            <!-- Header -->
+            <tr>
+              <td
+                style="
+                  background: #101d1c;
+                  padding: 32px 30px;
+                  text-align: center;
+                "
+              >
+                <div
+                  style="
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #86d0c5;
+                    margin-bottom: 8px;
+                  "
+                >
+                  FareDealFinder
+                </div>
+
+                <div style="font-size: 14px; color: #eaf0ed">
+                  New Flight Quote Request
+                </div>
+              </td>
+            </tr>
+
+            <!-- Content -->
+            <tr>
+              <td style="padding: 32px 30px 35px">
+                <!-- Customer Details -->
+                <h2 style="margin: 0 0 20px; font-size: 21px; color: #101d1c">
+                  Customer Details
+                </h2>
+
+                <table role="presentation"
+
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  style="font-size: 14px"
+                >
+                  <tr>
+                    <td style="padding: 8px 0; color: #66777a; width: 150px">
+                      <strong>Name</strong>
+                    </td>
+                    <td style="padding: 8px 0">{{name}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 8px 0; color: #66777a">
+                      <strong>Email</strong>
+                    </td>
+                    <td style="padding: 8px 0">
+                      <a
+                        href="mailto:{{email}}"
+                        style="color: #177c79; text-decoration: none"
+                      >
+                        {{email}}
+                      </a>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 8px 0; color: #66777a">
+                      <strong>Phone Number</strong>
+                    </td>
+                    <td style="padding: 8px 0">
+                      <a
+                        href="tel:{{phone}}"
+                        style="color: #177c79; text-decoration: none"
+                      >
+                        {{phone}}
+                      </a>
+                    </td>
+                  </tr>
+                </table>
+
+                <!-- Divider -->
+                <div
+                  style="height: 1px; background: #d9dfd9; margin: 22px 0 26px"
+                ></div>
+
+                <!-- Flight Details -->
+                <h2 style="margin: 0 0 20px; font-size: 21px; color: #101d1c">
+                  Flight Details
+                </h2>
+
+                <table role="presentation"
+
+                  width="100%"
+                  cellpadding="0"
+                  cellspacing="0"
+                  border="0"
+                  style="font-size: 14px"
+                >
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a; width: 150px">
+                      <strong>Trip Type</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{tripType}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a">
+                      <strong>From</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{from}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a">
+                      <strong>To</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{to}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a">
+                      <strong>Departure</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{departureDate}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a">
+                      <strong>Return</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{#if returnDate}}{{returnDate}}{{else}}Not requested{{/if}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a">
+                      <strong>Travelers</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{travelers}}</td>
+                  </tr>
+
+                  <tr>
+                    <td style="padding: 9px 0; color: #66777a">
+                      <strong>Cabin</strong>
+                    </td>
+                    <td style="padding: 9px 0">{{cabinLabel}}</td>
+                  </tr>
+                </table>
+
+                <!-- Trip Summary -->
+                <div
+                  style="
+                    margin-top: 28px;
+                    padding: 18px 20px;
+                    background: #eef6f3;
+                    border: 1px solid #cde3dc;
+                    border-radius: 10px;
+                  "
+                >
+                  <div
+                    style="font-size: 13px; color: #66777a; margin-bottom: 6px"
+                  >
+                    Flight Request
+                  </div>
+
+                  <div
+                    style="font-size: 16px; font-weight: 700; color: #101d1c"
+                  >
+                    {{from}} &nbsp;&rarr;&nbsp; {{to}}
+                  </div>
+
+                  <div style="font-size: 13px; color: #66777a; margin-top: 7px">
+                    {{departureDate}} &nbsp; &bull; &nbsp; {{travelers}} Traveler(s)
+                    &nbsp; &bull; &nbsp; {{cabinLabel}}
+                  </div>
+                </div>
+
+                <!-- Footer -->
+                <div
+                  style="
+                    margin-top: 28px;
+                    padding-top: 20px;
+                    border-top: 1px solid #d9dfd9;
+                    font-size: 13px;
+                    color: #66777a;
+                  "
+                >
+                  This request was submitted through
+                  <a href="https://faredealfinder.com" style="color: #177c79; text-decoration: none; font-weight: 700">faredealfinder.com</a>.
+                  <p style="margin: 12px 0 0; line-height: 1.6">
+                    Flight assistance by SL Distributors LLC.<br />
+                    <a href="tel:+18443548010" style="color: #177c79; text-decoration: none">+1 (844) 354-8010</a>
+                    &nbsp;&bull;&nbsp;
+                    <a href="mailto:info@faredealfinder.com" style="color: #177c79; text-decoration: none">info@faredealfinder.com</a>
+                  </p>
+                  <p style="margin: 12px 0 0; line-height: 1.6">
+                    This is a flight quote request, not a booking confirmation.
+                  </p>
+                </div>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
