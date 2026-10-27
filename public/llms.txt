@@ -1,5 +1,8 @@
 # FareDealFinder
 
+- [Our journeys](https://faredealfinder.com/flight-services): Explore international, premium-cabin, multi-city and domestic flight assistance.
+- [How it works](https://faredealfinder.com/how-it-works): Share your plans, discuss itinerary options and review the details before authorizing a booking.
+
 > Human-assisted flight planning for domestic, international, premium-cabin and multi-city trips. Compare itinerary details with FareDealFinder.
 
 FareDealFinder is operated by SL Distributors LLC. It provides flight research, itinerary comparison and booking coordination. It is an independent flight assistance service, not an airline.
