@@ -38,7 +38,7 @@ This is a human-assisted flight enquiry website. It does not search live fares, 
 Copy `.env.example` to `.env.local` and configure `SMTP_HOST`, `SMTP_PORT`, `SMTP_SECURE`, `SMTP_USER`, `SMTP_PASS`, `SMTP_FROM` and `SMTP_TO` to enable email delivery. Without SMTP, the email endpoint returns an error. Leave `NEXT_PUBLIC_GA_MEASUREMENT_ID` empty to disable analytics.
 
 - `lib/siteMetadata.ts`: site name, description and canonical origin. `https://faredealfinder.com` is the default assumed domain; change it to your actual domain before deployment.
-- `lib/contactDetails.ts`: public contact details. The source project's business operator, phone and address are retained; confirm these before launch. `info@faredealfinder.com` is an assumed mailbox and must be provisioned separately.
+- `lib/contactDetails.ts`: public contact details. Phone: `+1 888-348-7083`. Email: `support@faredealfinder.com`. Address: Five Greentree Centre, 525 NJ-73 Suite 104, Marlton, NJ 08053, United States. The business operator remains SL Distributors LLC.
 - `templates/mail.html`: branded enquiry email.
 - `public/faredealfinder-logo.svg` and `.png`: editable vector logo and rendered logo.
 - `public/banner.png`, `app/icon.png`, `app/favicon.ico`: sharing image and browser icons.

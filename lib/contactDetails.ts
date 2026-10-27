@@ -1,10 +1,10 @@
 export const contactDetails = {
   companyName: "SL Distributors LLC",
-  phone: "+1 (844) 354-8010",
-  phoneHref: "tel:+18443548010",
-  email: "info@faredealfinder.com",
-  emailHref: "mailto:info@faredealfinder.com",
-  address: "261 Griffith Street, Jersey City, NJ 07307, United States",
+  phone: "+1 888-348-7083",
+  phoneHref: "tel:+18883487083",
+  email: "support@faredealfinder.com",
+  emailHref: "mailto:support@faredealfinder.com",
+  address: "Five Greentree Centre, 525 NJ-73 Suite 104, Marlton, NJ 08053, United States",
   serviceMode: "Flight research, itinerary comparison and booking coordination",
   supportHours: "24/7 support for urgent travel needs, email response within 24 hours",
 } as const;
