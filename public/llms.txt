@@ -1,0 +1,111 @@
+# FareDealFinder
+
+> Human-assisted flight planning for domestic, international, premium-cabin and multi-city trips. Compare itinerary details with FareDealFinder.
+
+FareDealFinder is operated by SL Distributors LLC. It provides flight research, itinerary comparison and booking coordination. It is an independent flight assistance service, not an airline.
+
+Destination, airline and deal pages provide general planning information, not live inventory or guaranteed fares. Sending an enquiry does not book a seat. Airline rules, availability and ticket conditions must be confirmed before purchase.
+
+Contact: info@faredealfinder.com | +1 (844) 354-8010. Address: 261 Griffith Street, Jersey City, NJ 07307, United States.
+
+## Main pages
+
+- [FareDealFinder](https://faredealfinder.com/): Human-assisted flight planning for domestic, international, premium-cabin and multi-city trips. Compare itinerary details with FareDealFinder.
+
+- [Flight specialists for trips with more moving parts.](https://faredealfinder.com/about-us): Flight assistance for international, multi-city, premium-cabin and time-sensitive journeys.
+
+- [Compare the journey, not just the fare.](https://faredealfinder.com/deals): Browse domestic, international, premium-cabin, one-way, round-trip and multi-city trip pages.
+
+- [Choose a destination. Then plan the whole route.](https://faredealfinder.com/destinations): Browse destination guides and keep the full itinerary in view, from connection cities to arrival times.
+
+- [What can we help you with?](https://faredealfinder.com/contact-us): Call our team about a trip you are planning, a booking arranged with us or a question about the next step.
+
+- [Domestic Flights](https://faredealfinder.com/deals/domestic-flights): Compare schedules, connections and fare conditions for travel within the United States.
+
+- [International Flights](https://faredealfinder.com/deals/international-flights): Review long-haul routes, connection schedules and total travel time across international itineraries.
+
+- [First Class Flights](https://faredealfinder.com/deals/first-class-flights): Compare first-class schedules, routing, cabin details and fare conditions for your trip.
+
+- [Business Class Flights](https://faredealfinder.com/deals/business-class-flights): Review business-class routes and schedules alongside connection and fare details.
+
+- [One Way Flights](https://faredealfinder.com/deals/one-way-flights): Plan a one-way itinerary around your departure date, arrival time and route preferences.
+
+- [Round Trip Flights](https://faredealfinder.com/deals/round-trip-flights): Review outbound and return schedules together to see how the complete journey fits.
+
+- [Last Minute Flights](https://faredealfinder.com/deals/last-minute-flights): For travel coming up soon, share your travel window and any arrival deadline for a schedule review.
+
+- [Student Flights](https://faredealfinder.com/deals/student-flights): Review routes and fare conditions for student travel; eligibility and any special terms depend on the airline and ticket.
+
+- [Family Holiday Flights](https://faredealfinder.com/deals/family-holiday-flights): Plan family travel by reviewing schedules, connections and the needs of everyone on the itinerary.
+
+- [Holiday Flight Deals](https://faredealfinder.com/deals/holiday-flight-deals): Holiday travel dates can affect schedules and fares; compare available itineraries and terms before choosing.
+
+- [Multi-City Flights](https://faredealfinder.com/deals/multi-city-flights): Review every city and flight segment as one connected itinerary, with dates and connections considered together.
+
+- [Cheap Flight Deals](https://faredealfinder.com/deals/cheap-flight-deals): Compare available itineraries by total trip cost, schedule, connections and fare restrictions.
+
+- [Flights to London, United Kingdom](https://faredealfinder.com/city/cheap-flights-to-london): Compare transatlantic routes, connection schedules and arrival times for London.
+
+- [Flights to Paris, France](https://faredealfinder.com/city/cheap-flights-to-paris): Compare international connections, journey length and fare conditions for Paris.
+
+- [Flights to Rome, Italy](https://faredealfinder.com/city/cheap-flights-to-rome): Review route choices, connection time and arrival schedules for Rome.
+
+- [Flights to Dubai, United Arab Emirates](https://faredealfinder.com/city/cheap-flights-to-dubai): Compare long-haul routes, connection airports and total travel time for Dubai.
+
+- [Flights to Istanbul, Turkey](https://faredealfinder.com/city/cheap-flights-to-istanbul): Review connection schedules and the full itinerary for Istanbul.
+
+- [Flights to Tokyo, Japan](https://faredealfinder.com/city/cheap-flights-to-tokyo): Compare long-haul routing, layovers and total journey time for Tokyo.
+
+- [Flights to New York City, United States](https://faredealfinder.com/city/cheap-flights-to-new-york-city): Compare arrival airports, connection schedules and total travel time for New York.
+
+- [Flights to Los Angeles, United States](https://faredealfinder.com/city/cheap-flights-to-los-angeles): Review arrival timing and the full route before planning your Los Angeles trip.
+
+- [Flights to Las Vegas, United States](https://faredealfinder.com/city/cheap-flights-to-las-vegas): Compare schedules, connections and arrival timing for Las Vegas.
+
+- [Flights to San Francisco, United States](https://faredealfinder.com/city/cheap-flights-to-san-francisco): Check the route, arrival time and connection details for San Francisco.
+
+- [Flights to Miami, United States](https://faredealfinder.com/city/cheap-flights-to-miami): Review route options and schedules for your dates to Miami.
+
+- [Flights to Orlando, United States](https://faredealfinder.com/city/cheap-flights-to-orlando): Compare flight schedules and arrival options for an Orlando trip.
+
+- [Explore airlines for your next trip.](https://faredealfinder.com/airlines): Browse airline flight-planning pages and review schedules, connections and ticket conditions for your journey.
+
+- [American Airlines Flights](https://faredealfinder.com/airlines/american-airlines): Explore American Airlines flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [Delta Air Lines Flights](https://faredealfinder.com/airlines/delta-air-lines): Explore Delta Air Lines flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [United Airlines Flights](https://faredealfinder.com/airlines/united-airlines): Explore United Airlines flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [Southwest Airlines Flights](https://faredealfinder.com/airlines/southwest-airlines): Explore Southwest Airlines flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [JetBlue Airways Flights](https://faredealfinder.com/airlines/jetblue-airways): Explore JetBlue Airways flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [Alaska Airlines Flights](https://faredealfinder.com/airlines/alaska-airlines): Explore Alaska Airlines flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [British Airways Flights](https://faredealfinder.com/airlines/british-airways): Explore British Airways flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [Emirates Flights](https://faredealfinder.com/airlines/emirates): Explore Emirates flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [Qatar Airways Flights](https://faredealfinder.com/airlines/qatar-airways): Explore Qatar Airways flight options for your travel dates and compare schedules, connections and fare conditions.
+
+- [Lufthansa Flights](https://faredealfinder.com/airlines/lufthansa): Explore Lufthansa flight options for your travel dates and compare schedules, connections and fare conditions.
+
+## Policies and disclosures
+
+- [Privacy Policy](https://faredealfinder.com/privacy-policy): What trip details this website handles and what happens when you contact our team.
+
+- [Terms & Conditions](https://faredealfinder.com/terms-conditions): Important limits on trip requests, fares and travel information provided through FareDealFinder.
+
+- [Changes, Cancellations & Refunds](https://faredealfinder.com/cancellation-refund): The ticket's fare conditions and the airline's rules determine what changes or refunds may be available.
+
+- [Cookie Policy](https://faredealfinder.com/cookie-policy): Information about browser storage and the controls available to you.
+
+- [Travel Disclaimer](https://faredealfinder.com/disclaimer): Understand the limits of online trip details and independent flight assistance.
+
+- [Advertisement Disclosure](https://faredealfinder.com/advertisement-disclosure): Information about promotional content, airline references and flight-option requests on FareDealFinder.
+
+## Optional
+
+- [XML sitemap](https://faredealfinder.com/sitemap.xml): Public page URLs for search engines.
+
+- [Robots rules](https://faredealfinder.com/robots.txt): Crawler access rules and sitemap location.
