@@ -9,7 +9,7 @@ const navigation = [
   { href: "/flight-services", label: "Our journeys" },
   { href: "/destinations", label: "Destinations" },
   { href: "/airlines", label: "Airlines" },
-  { href: "/#how-it-works", label: "How it works" },
+  { href: "/how-it-works", label: "How it works" },
   { href: "/about-us", label: "About us" },
 ];
 

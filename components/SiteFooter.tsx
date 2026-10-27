@@ -5,6 +5,8 @@ import { airlines } from "@/lib/airlines";
 
 const companyLinks = [
   { label: "Home", href: "/" },
+  { label: "Our journeys", href: "/flight-services" },
+  { label: "How it works", href: "/how-it-works" },
   { label: "About us", href: "/about-us" },
   { label: "Airlines", href: "/airlines" },
   { label: "Contact us", href: "/contact-us" },

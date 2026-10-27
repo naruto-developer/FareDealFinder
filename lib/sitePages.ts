@@ -344,6 +344,104 @@ const cityPages: SitePage[] = cities.map((city) => ({
 
 export const sitePages: SitePage[] = [
   {
+    path: "/flight-services",
+    title: "Our journeys",
+    eyebrow: "YOUR JOURNEY, YOUR WAY",
+    description:
+      "From a long-awaited escape to an itinerary with several stops, explore flight assistance shaped around the way you travel.",
+    sections: [
+      {
+        title: "International journeys",
+        paragraphs: [
+          "Long-haul adventures, meaningful reunions and new destinations deserve a considered route. Share your dates and preferred airports so we can help you review connections, arrival times and the full journey.",
+        ],
+        bullets: ["Departure and arrival airport choices", "Connection time and total travel time", "Flexible dates and route preferences"],
+      },
+      {
+        title: "Premium cabin travel",
+        paragraphs: [
+          "Explore business and first-class itineraries with attention to the details that matter to you. Cabin features vary by airline, aircraft and route; review the specific itinerary and fare conditions before choosing.",
+        ],
+      },
+      {
+        title: "Multi-city itineraries",
+        paragraphs: [
+          "Visit several destinations with each flight considered as part of one journey. Tell us the cities, order of travel and dates for every stop so we can discuss how the segments fit together.",
+        ],
+      },
+      {
+        title: "Domestic, family and short-notice travel",
+        paragraphs: [
+          "Whether you are planning a quick domestic trip, a family holiday or travel at short notice, start with your priorities. Share passenger needs, timing constraints and any arrival deadline when discussing options with our team.",
+          "FareDealFinder provides independent human-assisted flight planning. These pages do not show live fares or guarantee availability. Review the total price, applicable charges and ticket conditions before authorizing a booking.",
+        ],
+      },
+    ],
+    relatedGroups: [
+      {
+        title: "Find your way to fly",
+        links: [
+          { title: "International flights", href: "/deals/international-flights", detail: "Plan long-haul routes and connections." },
+          { title: "Business class", href: "/deals/business-class-flights", detail: "Consider cabin choices and schedules." },
+          { title: "First class", href: "/deals/first-class-flights", detail: "Review premium itineraries and terms." },
+          { title: "Multi-city flights", href: "/deals/multi-city-flights", detail: "Connect every stop in your journey." },
+          { title: "Domestic flights", href: "/deals/domestic-flights", detail: "Explore travel within the United States." },
+          { title: "Last-minute flights", href: "/deals/last-minute-flights", detail: "Discuss plans for travel coming up soon." },
+        ],
+      },
+      {
+        title: "Start planning",
+        links: [
+          { title: "How it works", href: "/how-it-works", detail: "From your first request to itinerary review." },
+          { title: "Destinations", href: "/destinations", detail: "Find inspiration for your next trip." },
+          { title: "Contact us", href: "/contact-us", detail: "Talk through your travel priorities." },
+        ],
+      },
+    ],
+  },
+  {
+    path: "/how-it-works",
+    title: "How it works",
+    eyebrow: "SIMPLE STEPS. THOUGHTFUL SERVICE.",
+    description:
+      "You bring the destination. FareDealFinder helps you make sense of the journey, from sharing your plans to reviewing your itinerary.",
+    sections: [
+      {
+        title: "01. Start with your plans",
+        paragraphs: [
+          "Use the trip form to choose your departure and arrival airports, travel dates, passengers and cabin preference. Select a one-way, round-trip or two-leg multi-city journey, then review your trip summary.",
+          "Share your name, email and phone number through the enquiry form, or call our team. Include any flexibility or special priorities when you speak with a specialist.",
+        ],
+      },
+      {
+        title: "02. Explore the possibilities",
+        paragraphs: [
+          "Talk through routes, connection airports, travel time and cabin choices with a specialist. We help you understand how the available itinerary details fit your plans.",
+        ],
+        bullets: ["Compare the full journey and connection times", "Discuss baggage, seating and passenger needs", "Review fare conditions and any applicable service charges"],
+      },
+      {
+        title: "03. Review before you decide",
+        paragraphs: [
+          "Check passenger names, airports, dates and flight segments carefully. Review the total pricing and the applicable change, cancellation and refund conditions before authorizing any booking.",
+          "Submitting an enquiry does not reserve a seat, issue a ticket or confirm a fare. Prices and availability can change until a booking is confirmed under the applicable ticket terms.",
+        ],
+      },
+      {
+        title: "Help with the next step",
+        paragraphs: [
+          "For questions about a trip arranged through FareDealFinder, contact our team with your booking reference, passenger name and travel date. Changes and refunds depend on the airline and your ticket conditions.",
+          "For urgent travel-day assistance, use the airline contact details on your confirmation. Verify travel documents and entry requirements before departure.",
+        ],
+      },
+    ],
+    related: [
+      { title: "Our journeys", href: "/flight-services", detail: "Explore the ways we can help you travel." },
+      { title: "Contact us", href: "/contact-us", detail: "Speak with our team about your plans." },
+      { title: "Booking terms", href: "/terms-conditions", detail: "Understand the details before you book." },
+    ],
+  },
+  {
     path: "/about-us",
     title: "Flight specialists for trips with more moving parts.",
     eyebrow: "ABOUT FAREDEALFINDER",

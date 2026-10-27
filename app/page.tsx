@@ -89,7 +89,7 @@ export default function Home() {
               options and personal guidance, wherever life takes you.
             </p>
             <div className="travel-actions">
-              <a className="travel-button gold" href="/flight-search">
+              <a className="travel-button gold" href="/our-journeys">
                 Plan your journey <Arrow diagonal />
               </a>
               <a className="hero-call" href={contactDetails.phoneHref}>
@@ -391,7 +391,7 @@ export default function Home() {
               Share your plans. Start a conversation. See where it takes you.
             </p>
             <div className="travel-actions">
-              <a href="#flight-search" className="travel-button dark">
+              <a href="/our-journeys" className="travel-button dark">
                 Plan your journey <Arrow diagonal />
               </a>
               <a href={contactDetails.phoneHref} className="travel-text-link">
