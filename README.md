@@ -47,7 +47,7 @@ No source-project credentials, Git history, dependencies or build cache were cop
 
 ## Netlify deployment
 
-Set the SMTP variables in Netlify's environment settings. `netlify.toml` excludes only `SMTP_FROM` (the public sender email address) and `SMTP_HOST` (the mail server hostname) from environment-value secret scanning. These non-secret values can appear in source or server build output. Scanning remains enabled for credentials, including `SMTP_USER` and `SMTP_PASS`.
+Set the SMTP variables in Netlify's environment settings. `netlify.toml` excludes `SMTP_FROM` and `SMTP_USER` (both use the public contact email address), plus `SMTP_HOST` (the mail server hostname), from environment-value secret scanning. These non-secret values can appear in source or server build output. Password scanning, including `SMTP_PASS`, remains enabled. If the SMTP username changes to a private value, remove `SMTP_USER` from this exception.
 
 Commit and push `netlify.toml`, then trigger a new Netlify deploy. Keep the existing build command (`npm run build`) and publish directory (`.next`).
 
