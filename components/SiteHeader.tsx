@@ -8,7 +8,7 @@ import { contactDetails } from "@/lib/contactDetails";
 const navigation = [
   { href: "/our-journeys", label: "Our journeys" },
   { href: "/destinations", label: "Destinations" },
-  { href: "/airlines", label: "Airlines" },
+  // { href: "/airlines", label: "Airlines" },
   { href: "/how-it-works", label: "How it works" },
   { href: "/about-us", label: "About us" },
 ];
