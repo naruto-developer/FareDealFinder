@@ -9,12 +9,18 @@ export async function POST(request: Request) {
     const data = await request.json();
 
     if (
-      !data?.Name || !data?.Email || !data?.Phone ||
-      !data?.search?.from?.name || !data?.search?.to?.name ||
+      !data?.Name ||
+      !data?.Email ||
+      !data?.Phone ||
+      !data?.search?.from?.name ||
+      !data?.search?.to?.name ||
       !data?.search?.departureDate
     ) {
       return NextResponse.json(
-        { success: false, error: "Contact and flight search details are required." },
+        {
+          success: false,
+          error: "Contact and flight search details are required.",
+        },
         { status: 400 },
       );
     }
@@ -35,7 +41,6 @@ export async function POST(request: Request) {
       cabin: data.search.cabin,
       cabinLabel: data.search.cabinLabel,
     };
-
     // 1. Configure the SMTP Transporter
     const transporter = nodemailer.createTransport({
       host: process.env.SMTP_HOST,
@@ -61,7 +66,7 @@ export async function POST(request: Request) {
     const mailOptions = {
       from: `"FareDealFinder" <${process.env.SMTP_FROM}>`,
       to: process.env.SMTP_TO,
-      subject:`✈️ New Flight Quote Request | ${data.Name} | ${data.Email} | ${data.search.from.code} → ${data.search.to.code}`,
+      subject: `✈️ New Flight Quote Request | ${data.Name} | ${data.Email} | ${data.search.from.code} → ${data.search.to.code}`,
       html: htmlToSend,
     };
 
@@ -75,7 +80,10 @@ export async function POST(request: Request) {
   } catch (error: unknown) {
     console.error("Error sending email:", error);
     return NextResponse.json(
-      { success: false, error: "Unable to send your request. Please try again." },
+      {
+        success: false,
+        error: "Unable to send your request. Please try again.",
+      },
       { status: 500 },
     );
   }
