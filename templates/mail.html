@@ -15,8 +15,8 @@
       color: #172c30;
     "
   >
-    <table role="presentation"
-
+    <table
+      role="presentation"
       width="100%"
       cellpadding="0"
       cellspacing="0"
@@ -26,8 +26,8 @@
       <tr>
         <td align="center">
           <!-- Main Container -->
-          <table role="presentation"
-
+          <table
+            role="presentation"
             width="100%"
             cellpadding="0"
             cellspacing="0"
@@ -74,8 +74,8 @@
                   Customer Details
                 </h2>
 
-                <table role="presentation"
-
+                <table
+                  role="presentation"
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
@@ -128,8 +128,8 @@
                   Flight Details
                 </h2>
 
-                <table role="presentation"
-
+                <table
+                  role="presentation"
                   width="100%"
                   cellpadding="0"
                   cellspacing="0"
@@ -168,7 +168,10 @@
                     <td style="padding: 9px 0; color: #66777a">
                       <strong>Return</strong>
                     </td>
-                    <td style="padding: 9px 0">{{#if returnDate}}{{returnDate}}{{else}}Not requested{{/if}}</td>
+                    <td style="padding: 9px 0">
+                      {{#if returnDate}}{{returnDate}}{{else}}Not
+                      requested{{/if}}
+                    </td>
                   </tr>
 
                   <tr>
@@ -209,8 +212,8 @@
                   </div>
 
                   <div style="font-size: 13px; color: #66777a; margin-top: 7px">
-                    {{departureDate}} &nbsp; &bull; &nbsp; {{travelers}} Traveler(s)
-                    &nbsp; &bull; &nbsp; {{cabinLabel}}
+                    {{departureDate}} &nbsp; &bull; &nbsp; {{travelers}}
+                    Traveler(s) &nbsp; &bull; &nbsp; {{cabinLabel}}
                   </div>
                 </div>
 
@@ -225,12 +228,28 @@
                   "
                 >
                   This request was submitted through
-                  <a href="https://faredealfinder.com" style="color: #177c79; text-decoration: none; font-weight: 700">faredealfinder.com</a>.
+                  <a
+                    href="https://faredealfinder.com"
+                    style="
+                      color: #177c79;
+                      text-decoration: none;
+                      font-weight: 700;
+                    "
+                    >faredealfinder.com</a
+                  >.
                   <p style="margin: 12px 0 0; line-height: 1.6">
-                    Flight assistance by SL Distributors LLC.<br />
-                    <a href="tel:+18883487083" style="color: #177c79; text-decoration: none">+1 888-348-7083</a>
+                    Flight assistance by Travel Edge.<br />
+                    <a
+                      href="tel:+18883487083"
+                      style="color: #177c79; text-decoration: none"
+                      >+1 888-348-7083</a
+                    >
                     &nbsp;&bull;&nbsp;
-                    <a href="mailto:support@faredealfinder.com" style="color: #177c79; text-decoration: none">support@faredealfinder.com</a>
+                    <a
+                      href="mailto:support@faredealfinder.com"
+                      style="color: #177c79; text-decoration: none"
+                      >support@faredealfinder.com</a
+                    >
                   </p>
                   <p style="margin: 12px 0 0; line-height: 1.6">
                     This is a flight quote request, not a booking confirmation.

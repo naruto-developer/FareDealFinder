@@ -1,5 +1,5 @@
 export const contactDetails = {
-  companyName: "SL Distributors LLC",
+  companyName: "Travel Edge",
   phone: "+1 888-348-7083",
   phoneHref: "tel:+18883487083",
   email: "support@faredealfinder.com",
