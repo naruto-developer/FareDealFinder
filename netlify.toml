@@ -1,4 +1,4 @@
 [build.environment]
-  # SMTP_FROM and SMTP_USER use the public contact email address; SMTP_HOST is
+  # SMTP_FROM, SMTP_USER and SMTP_TO use the public contact email; SMTP_HOST is
   # non-secret server configuration. Keep password scanning enabled.
-  SECRETS_SCAN_OMIT_KEYS = "SMTP_FROM,SMTP_HOST,SMTP_USER"
+  SECRETS_SCAN_OMIT_KEYS = "SMTP_FROM,SMTP_HOST,SMTP_USER,SMTP_TO"
