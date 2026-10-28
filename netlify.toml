@@ -1,0 +1,4 @@
+[build.environment]
+  # The sender address is public contact information; the SMTP hostname is
+  # non-secret server configuration. Keep scanning credentials such as SMTP_PASS.
+  SECRETS_SCAN_OMIT_KEYS = "SMTP_FROM,SMTP_HOST"
