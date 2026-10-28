@@ -8,7 +8,7 @@ const companyLinks = [
   { label: "Our journeys", href: "/our-journeys" },
   { label: "How it works", href: "/how-it-works" },
   { label: "About us", href: "/about-us" },
-  { label: "Airlines", href: "/airlines" },
+  // { label: "Airlines", href: "/airlines" },
   { label: "Contact us", href: "/contact-us" },
   { label: "Plan a trip", href: "/#flight-search" },
 ];
@@ -59,13 +59,13 @@ export default function SiteFooter() {
         label: `Cheap Flights To ${link.label}`,
       })),
     },
-    {
-      title: "Airlines",
-      links: airlines.slice(0, 9).map((airline) => ({
-        href: `/airlines/${airline.slug}`,
-        label: `${airline.name} Flights`,
-      })),
-    },
+    // {
+    //   title: "Airlines",
+    //   links: airlines.slice(0, 9).map((airline) => ({
+    //     href: `/airlines/${airline.slug}`,
+    //     label: `${airline.name} Flights`,
+    //   })),
+    // },
     { title: "Good to know", links: policyLinks },
   ];
   return (
