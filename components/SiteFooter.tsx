@@ -194,14 +194,18 @@ export default function SiteFooter() {
           </div>
         </div>
 
-        <div className="mt-7 flex flex-col gap-4 border-t border-white/10 pt-6 pb-7 text-[11px] leading-6 text-[#95af9e] sm:mt-9 sm:flex-row sm:items-start sm:justify-between sm:gap-8">
+        <div className="mt-7 flex flex-col gap-2 border-t border-white/10 pt-6 pb-7 text-[11px] leading-6 text-[#95af9e] sm:mt-9 sm:flex-row sm:items-start sm:justify-between sm:gap-8">
           <div>
             <p>
               © {new Date().getFullYear()} FareDealFinder. All rights reserved.
             </p>
-            <p className="mt-1 max-w-xl text-[10px] text-[#91a99a]">
-              Independent flight assistance. Requests do not confirm fares or
-              create bookings.
+            <p className="mt-1 text-[10px] text-[#91a99a]">
+              Disclaimer: FareDealFinder.com is an independent travel agent and
+              is not affiliated with any airline, OTA, or third-party travel
+              provider. All fares are sourced from third parties and are
+              dynamic, subject to change, and not guaranteed until actual
+              booking and confirmation. Final prices and availability should be
+              verified at the time of booking.
             </p>
           </div>
           <a
