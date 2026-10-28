@@ -6,7 +6,7 @@ import { useId, useRef, useState } from "react";
 import { contactDetails } from "@/lib/contactDetails";
 
 const navigation = [
-  { href: "/flight-services", label: "Our journeys" },
+  { href: "/our-journeys", label: "Our journeys" },
   { href: "/destinations", label: "Destinations" },
   { href: "/airlines", label: "Airlines" },
   { href: "/how-it-works", label: "How it works" },
@@ -33,10 +33,18 @@ export default function SiteHeader() {
         className="hidden min-h-11 items-center justify-center gap-2 bg-[#0c2925] px-4 py-3 text-[13px] font-bold text-[#f4f0e4] max-[600px]:flex"
         aria-label={`Call us at ${contactDetails.phone}`}
       >
-        <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor" className="size-4 shrink-0 text-[#dfc89d]">
+        <svg
+          aria-hidden="true"
+          viewBox="0 0 24 24"
+          fill="currentColor"
+          className="size-4 shrink-0 text-[#dfc89d]"
+        >
           <path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.55 3.6.55a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.6 21 3 13.4 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.3.2 2.5.55 3.6a1 1 0 0 1-.24 1l-2.2 2.2Z" />
         </svg>
-        <span>Call Us: {contactDetails.phone.replace(/[()]/g, "").replaceAll(" ", "-")}</span>
+        <span>
+          Call Us:{" "}
+          {contactDetails.phone.replace(/[()]/g, "").replaceAll(" ", "-")}
+        </span>
       </a>
       <div className="travel-container flex min-h-[88px] items-center justify-between gap-7 max-[850px]:min-h-[70px] max-[850px]:gap-3 max-[850px]:py-2 max-[600px]:w-[95%] max-[600px]:gap-1.5">
         <Link
