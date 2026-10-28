@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ContactForm from "@/components/ContactForm";
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";
 import { pageMetadata } from "@/components/SitePageRoute";
@@ -56,6 +57,8 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
+
+        <ContactForm />
 
         <section aria-labelledby="before-contacting" className="travel-container grid gap-10 border-t border-line py-14 md:grid-cols-[1fr_1.5fr] md:gap-20 md:py-20">
           <div>

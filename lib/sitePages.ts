@@ -540,6 +540,12 @@ export const sitePages: SitePage[] = [
       "What trip details this website handles and what happens when you contact our team.",
     sections: [
       {
+        title: "Contact form messages",
+        paragraphs: [
+          "When you submit the contact form, we send your name, email address, optional phone number, selected subject and message to our support team by email. We use these details to respond to your inquiry. Do not include payment card details or passport information in your message.",
+        ],
+      },
+      {
         title: "Trip details entered on this site",
         paragraphs: [
           "The flight form runs in your browser and does not submit a booking request. If you choose Review trip details, your route, dates, traveler count and cabin selection are added to the review-page URL and sent with that page request. The URL may remain in your browser history and may be recorded by website hosting systems.",
